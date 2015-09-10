@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Gherkin-Formatter",
+  "description": "This extension helps easily write gherkin features and paste them into Agile tools",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "featureHelper.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "http://*/",
+    "https://*/"
+  ]
+}
